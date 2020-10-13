@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body,
+html {
+	font-family: "Arial", "sans-serif";
+	height: 100%;
+	margin: 0;
+}
+
+.nav {
+	background-color: white;
+	overflow: hidden;
+	padding: 1%;
+	text-align: center;
+}
+
+.navbar-text {
+	color: black;
+}
+
+.Background-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Pics_Unsplash_Compressed/ketan-krishnan-1258060-unsplash.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 77%;
+	position: absolute;
+	width: 100%;
+}
+
+.Background-Text {
+	color: white;
+	left: 50%;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+ul.topnav {
+	background-color: white;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav a,
+.dropbtn {
+	color: black;
+	display: inline-block;
+	padding: 10px 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul.topnav li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #F1F1F1;
+}
+
+ul.topnav li.dropdown {
+	display: inline-block;
+}
+
+ul.topnav .dropdown-content {
+	background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	display: none;
+	min-width: 160px;
+	position: fixed;
+	z-index: 1;
+}
+
+ul.topnav .dropdown-content a {
+	color: black;
+	display: block;
+	padding: 10px 63px;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul.topnav .dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+ul.topnav .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+@media screen and (max-width: 600px) {
+	ul.topnav li {
+		float: none;
+	}
+}
+
+.Navi {
+	display: inline-block;
+	padding: 5px 14px;
+	text-decoration: none;
+}
+
+h1 {
+	padding-left: 3%;
+	padding-top: 1%
+}
+
+a:hover {
+	color: black;
+}
+
+p {
+	padding: 1px;
+	text-align: center;
+}
